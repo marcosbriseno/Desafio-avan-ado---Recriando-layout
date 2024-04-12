@@ -1,0 +1,100 @@
+:root {
+   --cor-background: #2F2E41;
+   --cor-destaque: #00BFA6;
+   --cor-branca: #ffffff;
+   --cor-cinza: #C2C2C2;
+
+
+
+   --fonte-primaria: "JetBrains Mono", monospace;
+   --fonte-secundaria: "Open Sans", sans-serif;
+}
+
+body {
+   background: var(--cor-background);
+   width: 1280px;
+   margin: auto;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 71px 98px 100px 99px;
+}
+
+nav ul {
+   display: flex;
+   gap: 64px;
+}
+
+nav ul li {
+   font-family: var(--fonte-primaria);
+   color: var(--cor-cinza);
+   list-style: none;
+}
+
+nav ul a {
+   text-decoration: none;
+}
+
+main {
+   width: 1092px;
+   margin: auto;
+   display: flex;
+}
+
+section {
+   text-align: center;
+   margin: 6px 0px 10px 77px;
+
+}
+
+section h1 {
+   font-family: var(--fonte-primaria);
+   color: var(--cor-branca);
+   font-weight: bold;
+   font-size: 36px;
+   letter-spacing: -1px;
+}
+
+section h1 span {
+   color: var(--cor-destaque);
+}
+
+
+section p {
+   font-family: var(--fonte-secundaria);
+   color: var(--cor-cinza);
+}
+
+section p span {
+   color: var(--cor-destaque);
+}
+
+footer {
+   display: flex;
+   margin-top: 157px;
+   flex-direction: column;
+   gap: 5px;
+
+}
+
+footer p {
+   text-align: center;
+   font-family: var(--fonte-primaria);
+   color: var(--cor-branca);
+   margin-bottom: 23px;
+}
+
+#line {
+   width: 568px;
+   margin: auto;
+   border: 1px solid var(--cor-destaque);
+}
+
+#padlock{
+   position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
